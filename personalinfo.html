@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Data Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2ecc71; /* Green background */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row; /* Arrange children horizontally */
+            align-items: center; /* Center children vertically */
+        }
+
+        .bio-data {
+            background-color: #ffd700; /* Gold yellow background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 50%; /* Set width to 50% of the container */
+            max-width: 400px; /* Limit maximum width for better readability */
+            margin-right: 20px; /* Add some space to the right of the table */
+        }
+
+        .image {
+            margin-left: 20px; /* Add some space between the table and the image */
+        }
+
+        .bio-data table {
+            width: 100%; /* Make the table fill the entire width of its container */
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .row:last-child {
+            margin-bottom: 0;
+        }
+
+        .name {
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 24px; /* Adjust the font size of h1 */
+            margin-bottom: 10px; /* Add some space at the bottom */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bio-data">
+            <h1> WELCOME TO STUDENT LOGIN PAGE </h1>
+            <h2>Bio Data of the student</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="name">Name:</td>
+                        <td>Joe Smith</td>
+                    </tr>
+                    <tr>
+                        <td class="name">Age:</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td class="name">Gender:</td>
+                        <td>Male</td>
+                    </tr>
+                    <tr>
+                        <td class="name">Blood Group:</td>
+                        <td>B+ve</td>
+                    </tr>
+                    <tr>
+                        <td class="name">Attendance:</td>
+                        <td>78%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="image">
+            <img src="body.jpg" alt="Student Image" width="200">
+        </div>
+    </div>
+</body>
+</html>
